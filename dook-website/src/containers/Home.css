@@ -16,3 +16,21 @@
 .Home .lander p {
   color: #FFF;
 }
+
+.Home .words{
+  text-align: center;
+}
+
+.Home .words h1{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #000
+}
+.Home .words p {
+  color: #000;
+}
+
+btn-toolbar{
+display: flex;
+justify-content: center;
+}
