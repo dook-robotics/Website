@@ -4,6 +4,7 @@ import Footer from "./FooterComponent";
 import Button from 'react-bootstrap/Button'
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 import Form from 'react-bootstrap/Form'
+import Fade from 'react-reveal/Fade';
 import "./Home.css";
 
 export default class Home extends Component {
@@ -49,15 +50,20 @@ export default class Home extends Component {
     function Contact() {
       const [modalShow, setModalShow] = React.useState(false);
       return (
-        <ButtonToolbar>
-          <Button variant="outline-light" onClick={() => setModalShow(true)}>
-            Contact Us
-          </Button>
-          <MyVerticallyCenteredModal
-            show={modalShow}
-            onHide={() => setModalShow(false)}
-          />
-        </ButtonToolbar>
+        <div className = "row offset-5">
+          <ButtonToolbar>
+            <Button variant="outline-light" onClick={() => setModalShow(true)}>
+              Contact Us
+            </Button>
+            <MyVerticallyCenteredModal
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+            />{' '}
+            <Button variant="outline-light" >
+              About Us
+            </Button>
+          </ButtonToolbar>
+        </div>
       );
     }
     return (
@@ -68,10 +74,11 @@ export default class Home extends Component {
           <Contact/>
         </div>
         <div className="words">
-          <h1>The Future Is Now</h1>
-          <p>Today is yesterday's tomorrow</p>
+          <Fade top>
+            <h1>The Future Is Now</h1>
+            <p>Today is yesterday's tomorrow</p>
+          </Fade>
         </div>
-        <Contact/>
         <Footer/>
       </div>
     );

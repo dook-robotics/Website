@@ -12,7 +12,7 @@ export default class Team extends Component {
       <div className="Team">
         <div className="lander">
           <h1>Meet The Team</h1>
-          <p>Our team currently consists of three mechanical engineers, 1 computer engineer. and 3 computer scientists</p>
+          <p>Our team currently consists of three mechanical engineers, one computer engineer, and three computer scientists</p>
         </div>
         <Container>
           <Row>
