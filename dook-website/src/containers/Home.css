@@ -1,0 +1,18 @@
+.Home .lander {
+  padding: 300px 0;
+  text-align: center;
+  background: url(../images/grass2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #FFF
+}
+
+.Home .lander p {
+  color: #FFF;
+}
