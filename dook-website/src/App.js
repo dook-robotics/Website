@@ -19,7 +19,7 @@ class App extends Component {
           <Nav className="mr-auto">
             <Nav.Link href="/team">Team</Nav.Link>
             <Nav.Link href="/features">Features</Nav.Link>
-            <Nav.Link href="/pricing">Pricing</Nav.Link>
+            <Nav.Link href="/media">Media</Nav.Link>
             <Nav.Link href="https://github.com/dook-robotics">Github</Nav.Link>
           </Nav>
           <Form inline>
