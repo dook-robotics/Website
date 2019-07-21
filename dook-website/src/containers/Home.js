@@ -7,6 +7,7 @@ import Form from 'react-bootstrap/Form'
 import Fade from 'react-reveal/Fade';
 import "./Home.css";
 
+
 export default class Home extends Component {
   render() {
     function MyVerticallyCenteredModal(props) {
@@ -47,6 +48,7 @@ export default class Home extends Component {
         </Modal>
       );
     }
+
     function Contact() {
       const [modalShow, setModalShow] = React.useState(false);
       return (
@@ -59,10 +61,14 @@ export default class Home extends Component {
               show={modalShow}
               onHide={() => setModalShow(false)}
             />{' '}
-            <Button variant="outline-light" >
+            </ButtonToolbar>
+
+            <div class = "buttonDiv" >
+            <Button variant="outline-light">
               About Us
             </Button>
-          </ButtonToolbar>
+            </div>
+
         </div>
       );
     }

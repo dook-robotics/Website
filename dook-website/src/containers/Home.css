@@ -30,7 +30,11 @@
 .Home .words p {
   color: #000;
 }
-
+.buttonDiv{
+  display: flex;
+  width: 14%;
+  justify-content: right;
+}
 btn-toolbar{
 display: flex;
 justify-content: center;
