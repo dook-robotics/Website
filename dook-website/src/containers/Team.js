@@ -12,24 +12,24 @@ export default class Team extends Component {
       <div className="Team">
         <div className="lander">
           <h1>Meet The Team</h1>
-          <p>Our team currently consists of three mechanical engineers, one computer engineer, and three computer scientists</p>
+          <p>We are a large team, consisting of three mechanical engineers, four computer scientists, and one computer engineer. Get to know us!</p>
         </div>
         <Container>
           <Row>
             <Col xs={6} md={4}>
               <Image src= {require('../images/eric.png')} thumbnail />
-              <h1>Eric Becerril</h1>
-              <p>He mostly sleeps. Sometimes he codes</p>
+              <h1>Eric Becerril-Blas</h1>
+              <p>Computer Scientist</p>
             </Col>
             <Col xs={6} md={4}>
               <Image src={require('../images/brandon.png')} thumbnail />
               <h1>Brandon Herrera</h1>
-              <p>They call him... EL TIGRE CHINO</p>
+              <p>Mechanical Engineer</p>
             </Col>
             <Col xs={6} md={4}>
-              <Image src={require('../images/esdras.jpg')} thumbnail />
+              <Image src={require('../images/esdras.png')} thumbnail />
               <h1>Esdras Morales</h1>
-              <p>Esdras? More like es stress. Jk dont hurt me</p>
+              <p>Mechanical Engineer</p>
             </Col>
           </Row>
         </Container>
@@ -38,17 +38,17 @@ export default class Team extends Component {
             <Col xs={6} md={4}>
               <Image src= {require('../images/ameera.png')} thumbnail />
               <h1>Ameera Essaqi</h1>
-              <p>She owes me a beer</p>
+              <p>Computer Engineer</p>
             </Col>
             <Col xs={6} md={4}>
               <Image src={require('../images/zoyla.png')} thumbnail />
               <h1>Zoyla Orellana</h1>
-              <p>Still looking for her debit card</p>
+              <p>Computer Scientist</p>
             </Col>
             <Col xs={6} md={4}>
               <Image src= {require('../images/gio.png')} thumbnail />
               <h1>Giovanny Vazquez</h1>
-              <p>The type of guy who farts in the toilet and then flushes it</p>
+              <p>Mechanical Engineer</p>
             </Col>
           </Row>
         </Container>
@@ -56,18 +56,18 @@ export default class Team extends Component {
           <Row>
             <Col xs={6} md={4}>
               <Image src= {require('../images/mikian.png')} thumbnail />
-              <h1>Mikian</h1>
-              <p>Neural Net Master</p>
+              <h1>Mikian Musser</h1>
+              <p>Computer Scientist</p>
             </Col>
             <Col xs={6} md={4}>
-              <Image src={require('../images/mystery.png')} thumbnail />
-              <h1>???</h1>
-              <p>???</p>
+              <Image src={require('../images/austin.png')} thumbnail />
+              <h1>Austin Janushan</h1>
+              <p>Computer Scientist</p>
             </Col>
             <Col xs={6} md={4}>
-              <Image src= {require('../images/mystery.png')} thumbnail />
-              <h1>???</h1>
-              <p>???</p>
+              <Image src= {require('../images/team.png')} thumbnail />
+              <h1>Dook Robotics</h1>
+              <p>First Place Interdiscplinary Team</p>
             </Col>
           </Row>
         </Container>

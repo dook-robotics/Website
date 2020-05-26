@@ -18,16 +18,16 @@ function Footer(props) {
             <address>
             4505 S. Maryland Pkwy <br />
             Las Vegas, NV 89154 <br />
-            'Merica<br />
+            U.S.<br />
             </address>
           </div>
           <div className = "col-12 col-sm-4 align-self">
             <div className = "text-center">
-              <h5>Stay Gnarly</h5>
+              <h5>©Copyright 2019 Dook Robotics</h5>
             </div>
             <div className = "row justify-content-center">
               <div className = "col-auto">
-                <p>©Copyright 2019 Dook Robotics</p>
+                <p>Created By Eric Becerril-Blas</p>
               </div>
             </div>
           </div>

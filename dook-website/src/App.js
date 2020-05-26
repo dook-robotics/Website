@@ -9,6 +9,7 @@ import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 import Routes from "./Routes";
 import { LinkContainer } from "react-router-bootstrap";
+import Image from 'react-bootstrap/Image'
 import "./App.css";
 
 class App extends Component {
@@ -20,13 +21,8 @@ class App extends Component {
           <Nav className="mr-auto">
             <Nav.Link href="/team">Team</Nav.Link>
             <Nav.Link href="/features">Features</Nav.Link>
-            <Nav.Link href="/media">Media</Nav.Link>
-            <Nav.Link href="https://github.com/dook-robotics">Github</Nav.Link>
+
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-primary">Search</Button>
-          </Form>
         </Navbar>
         <Routes />
       </React.Fragment>
