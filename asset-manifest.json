@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dook-website/static/css/main.e8c21746.chunk.css",
+    "main.js": "/dook-website/static/js/main.a085c0f3.chunk.js",
+    "main.js.map": "/dook-website/static/js/main.a085c0f3.chunk.js.map",
+    "runtime-main.js": "/dook-website/static/js/runtime-main.8eb28ea6.js",
+    "runtime-main.js.map": "/dook-website/static/js/runtime-main.8eb28ea6.js.map",
+    "static/js/2.489ee875.chunk.js": "/dook-website/static/js/2.489ee875.chunk.js",
+    "static/js/2.489ee875.chunk.js.map": "/dook-website/static/js/2.489ee875.chunk.js.map",
+    "index.html": "/dook-website/index.html",
+    "precache-manifest.235309bc73977275384f16db4fc4ce9e.js": "/dook-website/precache-manifest.235309bc73977275384f16db4fc4ce9e.js",
+    "service-worker.js": "/dook-website/service-worker.js",
+    "static/css/main.e8c21746.chunk.css.map": "/dook-website/static/css/main.e8c21746.chunk.css.map",
+    "static/js/2.489ee875.chunk.js.LICENSE.txt": "/dook-website/static/js/2.489ee875.chunk.js.LICENSE.txt",
+    "static/media/ameera.png": "/dook-website/static/media/ameera.7e55d38a.png",
+    "static/media/austin.png": "/dook-website/static/media/austin.798384fe.png",
+    "static/media/brandon.png": "/dook-website/static/media/brandon.5b0dfdbf.png",
+    "static/media/demo.jpg": "/dook-website/static/media/demo.1112a543.jpg",
+    "static/media/eric.png": "/dook-website/static/media/eric.d16e947b.png",
+    "static/media/esdras.png": "/dook-website/static/media/esdras.fddca59d.png",
+    "static/media/first-place.png": "/dook-website/static/media/first-place.c57e98f9.png",
+    "static/media/gio.png": "/dook-website/static/media/gio.e2cf9701.png",
+    "static/media/market.png": "/dook-website/static/media/market.21511b15.png",
+    "static/media/method.png": "/dook-website/static/media/method.0eda045e.png",
+    "static/media/mikian.png": "/dook-website/static/media/mikian.36e3be33.png",
+    "static/media/showcase.png": "/dook-website/static/media/showcase.a286fb00.png",
+    "static/media/software.png": "/dook-website/static/media/software.62f207f6.png",
+    "static/media/specs.png": "/dook-website/static/media/specs.ee403cb4.png",
+    "static/media/team-congeniality.png": "/dook-website/static/media/team-congeniality.89a2b9ed.png",
+    "static/media/Home.css": "/dook-website/static/media/team.6219669e.jpeg",
+    "static/media/team.png": "/dook-website/static/media/team.f3105576.png",
+    "static/media/zoyla.png": "/dook-website/static/media/zoyla.8b48f779.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8eb28ea6.js",
+    "static/js/2.489ee875.chunk.js",
+    "static/css/main.e8c21746.chunk.css",
+    "static/js/main.a085c0f3.chunk.js"
+  ]
+}
