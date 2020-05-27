@@ -20,7 +20,7 @@ class App extends Component {
           <Navbar.Brand href="/">dook robotics</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/team">Team</Nav.Link>
-            <Nav.Link href="/features">Features</Nav.Link>
+            <Nav.Link href="/features">Technobabble</Nav.Link>
 
           </Nav>
         </Navbar>

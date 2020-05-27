@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import Footer from "./FooterComponent";
+import Fade from 'react-reveal/Fade';
 import "./Team.css";
 
 export default class Team extends Component {
@@ -12,8 +13,10 @@ export default class Team extends Component {
       <div className="Team">
         <div className="lander">
           <h1>Meet The Team</h1>
-          <p>We are a large team, consisting of three mechanical engineers, four computer scientists, and one computer engineer. Get to know us!</p>
+          <p>We are a large team, consisting of three mechanical engineers, four computer scientists, and one computer engineer.</p>
         </div>
+        <Fade top>
+
         <Container>
           <Row>
             <Col xs={6} md={4}>
@@ -71,6 +74,7 @@ export default class Team extends Component {
             </Col>
           </Row>
         </Container>
+        </Fade>
         <Footer/>
       </div>
     );

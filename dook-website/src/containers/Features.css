@@ -12,3 +12,26 @@
 .Features .lander p {
   color: #000;
 }
+
+.Features .background h5{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.Features .background p {
+  color: #000;
+}
+.Features .Market h5{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.Features .Market p {
+  color: #000;
+}
+.Features .Market img {
+  align-items:center;
+  justify-content: center;
+  padding-left: 250px
+}

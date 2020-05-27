@@ -72,11 +72,13 @@ Operationally, Dook will move randomly around the yard until it recognizes waste
     }
     return (
       <div className="Home">
+      <Fade top>
         <div className="lander">
           <h1>Dook Robotics</h1>
           <p>Fred and Harriet Cox Senior Design Competition Fall 2019</p>
           <Contact/>
         </div>
+      </Fade>
         <div className="words">
           <Fade top>
             <h1>Who We Are</h1>
