@@ -11,12 +11,11 @@ export default class Features extends Component {
   render() {
     return (
       <div className="Features">
+      <Fade top>
         <div className="lander">
           <h1>Features</h1>
-          <Fade top>
             <p>Learn all about the technical components of Dook here</p>
             <Image src= {require('../images/demo.jpg')} fluid />
-          </Fade>
           <div className = "background">
             <h5>Backgroud</h5>
             <p>{"    "}The motivation for Dook comes from the commercial hit from iRobot – the Roomba. The Roomba is a small, circular vacuum that navigates through the interior of a home with the help of ultrasonic sensors to clean the floors. There are variations of this robot that include mopping features and even a dedicated pool cleaner, but none exist for the exterior of homes. With the introduction of Dook, this team will open the possibility of these smart domestic robots to the outdoors.</p>
@@ -57,8 +56,9 @@ export default class Features extends Component {
             </Container>
           </div>
 
-
         </div>
+        </Fade>
+
         <Footer/>
       </div>
     );
