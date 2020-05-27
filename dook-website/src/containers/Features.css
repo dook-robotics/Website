@@ -1,6 +1,9 @@
 .Features .lander {
   padding: 30px 0;
   text-align: center;
+  padding-left: 80px;
+  padding-right:80px;
+  align-items: center;
 }
 
 .Features .lander h1 {
@@ -30,8 +33,26 @@
 .Features .Market p {
   color: #000;
 }
-.Features .Market img {
-  align-items:center;
-  justify-content: center;
-  padding-left: 250px
+
+.Features .Method {
+  padding-top: 20 px
+}
+
+.Features .Method h5{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.Features .Method p {
+  color: #000;
+}
+
+
+.Features .Hardware h5{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.Features .Hardware p {
+  color: #000;
 }
